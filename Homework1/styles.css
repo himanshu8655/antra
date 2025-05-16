@@ -1,0 +1,73 @@
+.header-class {
+    color: black;
+    text-align: center;
+}
+
+.bold-class {
+    font-weight: bold;
+}
+
+.input-class {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    }
+
+.main-div-class {
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input-horizontal-class {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    
+}
+.flex-end-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox-class{
+    margin: 10px;
+}
+
+.register-text-class{
+    background-color: lightskyblue;
+    color: white;
+}
+
+.term-txt-class{
+    color: skyblue;
+}
+
+.register-btn-class{
+     background-color: skyblue;
+         color: white;
+         width: 100%;
+         padding: 10px;
+         border-radius: 8px;
+         margin: 8px;
+             border: 0px;
+}
+.signin-btn-class{
+    border: 0px;
+     background-color: green;
+         color: white;
+         width: 100%;
+         padding: 10px;
+                  margin: 8px;
+         border-radius: 8px;
+
+}
