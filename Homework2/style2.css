@@ -1,7 +1,71 @@
 body {
+  margin: 0;
+  padding: 20px;
   font-family: sans-serif;
 }
 
-.name-class{
-    display: inline;
+.tweet {
+  background: #fff;
+  border: 1px solid #cfd9de;
+  border-radius: 16px;
+  padding: 12px;
+  max-width: 600px;
+}
+
+.tweet-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.user-info {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+}
+
+.metadata {
+  font-size: 15px;
+  color: #71767b;
+}
+
+.message {
+  margin: 8px 0;
+  font-size: 15px;
+  color: #0f1419;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  max-width: 425px;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  fill: #536471;
+}
+
+.count {
+  font-size: 13px;
+  color: #536471;
 }
